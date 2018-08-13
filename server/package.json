@@ -1,7 +1,8 @@
 {
-  "name": "financ.io application",
+  "name": "financio",
   "version": "0.1.0",
   "author": "Ilya Petrushenko <ilya.petrushenko@yandex.ru>",
+  "description": "Simple home finance application",
   "licence": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development && nodemon ./app.js",

@@ -21,7 +21,6 @@ const logger = require('morgan');
 
 const dotenv = require('dotenv');
 const chalk = require('chalk');
-const epilogue = require('epilogue');
 const cookieParser = require('cookie-parser');
 const errorHandler = require('errorhandler');
 
@@ -102,7 +101,7 @@ app.use(cors());
 app.use(helmet({
 	dnsPrefetchControl: false,
 	frameguard        : false,
-	ieNoOpen          : false,
+	ieNoOpen          : false
 }));
 
 /**
